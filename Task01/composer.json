@@ -1,0 +1,22 @@
+{
+    "name": "radynov/task01",
+    "authors": [
+        {
+            "name": "Alexandr Radynov",
+            "email": "radynov2014@yandex.ru"
+        }
+    ],
+    "type": "project",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [
+            "src/Test.php"
+        ]
+    },
+    "bin": [
+        "bin/run-test"
+    ]
+}
