@@ -1,0 +1,23 @@
+{
+    "name": "radynov/task03",
+    "authors": [
+        {
+            "name": "Alexandr Radynov",
+            "email": "radynov2014@yandex.ru"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit":"^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\":[
+                "src/Queue",
+                "src/Stack"
+            ]
+        },
+        "files": [
+            "src/CompareStrings.php"
+        ]
+    }
+}
